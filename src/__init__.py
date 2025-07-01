@@ -1,0 +1,1 @@
+"""Data fetching resources for quant club."""

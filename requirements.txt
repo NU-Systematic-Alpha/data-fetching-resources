@@ -1,0 +1,37 @@
+# Core dependencies
+polygon==1.1.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# Configuration
+configparser>=6.0.0
+
+# Data handling
+pyarrow>=14.0.0  # For parquet support
+openpyxl>=3.1.0  # For Excel export
+
+# Timezone handling
+tzdata>=2023.3
+
+# Caching
+diskcache>=5.6.0
+
+# Logging
+loguru>=0.7.0
+
+# Optional: Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.18.0
+
+# Optional: Jupyter support
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.1.0
+mypy>=1.5.0

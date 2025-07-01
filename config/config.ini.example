@@ -1,0 +1,19 @@
+[polygon]
+api_key = YOUR_POLYGON_API_KEY_HERE
+
+[paths]
+data_dir = data/
+cache_dir = cache/
+
+[rate_limits]
+# Polygon rate limits (requests per minute)
+# Free tier: 5 requests/minute
+# Basic: 100 requests/minute  
+# Starter: unlimited
+polygon_rpm = 5
+
+[cache]
+# Cache expiration in seconds
+stock_data_ttl = 86400
+options_data_ttl = 3600
+treasury_data_ttl = 86400
